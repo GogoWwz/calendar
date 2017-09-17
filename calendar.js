@@ -10,7 +10,7 @@ $((()=>{
 		return {
 			getDate:function(){
 				return _date;
-			},
+	 		},
 			setDate:function(date){
 				_date=date;
 			}
