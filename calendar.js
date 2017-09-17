@@ -100,7 +100,7 @@ $((()=>{
 	document.getElementById("calendarTable").onclick=e=>{
 		let td=e.target;	
 		let notChoose=document.querySelectorAll("td.choose");
-		if(e.target.nodeName=="TD"){			
+		if(e.target.nodeName=="TD"){
 			if(td.className!="otherMonth"){
 				let day=(parseInt(td.innerText)>=10)? td.innerText:`0${td.innerText}`;
 				let calendarTitle=document.getElementById("calendarTitle");
